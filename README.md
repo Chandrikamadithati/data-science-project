@@ -1,50 +1,50 @@
-# Automation Risk Prediction using Machine Learning
+# Flight Delay Prediction using Machine Learning
 
-##  Project Overview
+##  Overview
 
-This project focuses on predicting the automation risk of different job roles by 2030 using machine learning techniques. The aim is to analyse how job characteristics, required skills, education level, and AI exposure influence the likelihood of automation.
-
----
-
-##  Research Question
-
-Can machine learning models accurately predict the level of automation risk of different job roles based on their features?
+This project applies machine learning techniques to predict flight delays based on historical flight data. The aim is to analyse delay patterns and build models that can classify delay status effectively.
 
 ---
 
-##  Exploratory Data Analysis (EDA)
+##  Objective
+
+To develop and evaluate machine learning models that can predict whether a flight will be delayed using available features in the dataset.
+
+---
+
+##  Dataset
+
+The dataset contains flight-related information such as:
+
+* Airport and airline details
+* Number of flights and cancellations
+* Delay percentages across time ranges
+* Average delay time
+
+The dataset is used for academic purposes.
+
+---
+
+##  Methods
 
 The following steps were performed:
 
+* Data cleaning and preprocessing
 * Handling missing values
-* Checking data distributions using histograms and KDE plots
-* Identifying class imbalance
-* Feature analysis and correlation checks
-* Validating data quality and removing unrealistic values
+* Encoding categorical variables
+* Feature scaling
 
 ---
 
-##  Data Preprocessing
-
-* Missing values handled using imputation
-* Categorical variables encoded using One-Hot Encoding
-* Numerical features scaled using StandardScaler
-* Data split into training and testing sets
-
----
-
-## Machine Learning Models
-
-The following models were implemented and compared:
+##  Models Used
 
 * Logistic Regression
-* Decision Tree (Regularised)
-* Support Vector Machine (SVM)
-* K-Nearest Neighbours (KNN)
+* Random Forest
+* XG Boosting
 
 ---
 
-##  Model Evaluation
+##  Evaluation
 
 Models were evaluated using:
 
@@ -53,5 +53,8 @@ Models were evaluated using:
 * Recall
 * F1 Score
 * Confusion Matrix
-* ROC Curve and AUC Score
+* ROC Curve
 
+##  data set link
+
+https://www.caa.co.uk/data-and-analysis/uk-aviation-market/flight-punctuality/uk-flight-punctuality-statistics/2024/?utm_
